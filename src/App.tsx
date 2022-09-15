@@ -20,7 +20,7 @@ function App() {
           <Route path='/NotFound' element ={<NotFound/>}/>
         </Routes>
       </HashRouter>
-      <p>v1.2.0</p>
+      <p>v1.3.0</p>
      
     </div>
   );
