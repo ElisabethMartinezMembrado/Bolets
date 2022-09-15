@@ -11,11 +11,24 @@ function Home (){
     const [Loading, setLoading] = React.useState(true);
 
     async function RecibirDatos (){
-        const RespuestaApi = await fetch("https://62d4fcf2cd960e45d45ea776.mockapi.io/bolets/")
-        const RespuestaApiTxt = await RespuestaApi.text();
-        const RespuestaApiParse = JSON.parse(RespuestaApiTxt)
-        setBolets(RespuestaApiParse);
-        setLoading(false);
+        try {
+            const RespuestaApi = await fetch("https://62d4fcf2cd960e45d45ea776.mockapi.io/bolets/")
+            const RespuestaApiTxt = await RespuestaApi.text();
+            const RespuestaApiParse = JSON.parse(RespuestaApiTxt)
+            localStorage.setItem("datos", RespuestaApiTxt);
+            setBolets(RespuestaApiParse);
+            setLoading(false);
+        } catch (error){
+            console.log(error);
+            const datosGuardados = localStorage.getItem("datos");
+            if (datosGuardados){
+                const RespuestaApiParse = JSON.parse(datosGuardados);
+                setBolets(RespuestaApiParse);
+                setLoading(false);
+            } else {
+                console.log("El usuario no tiene conexión a internet ni copia en cache de los datos")
+            }
+        }
     }
     
     // se usa para que react ejecute la function 1 vez cuando el componente este listo
