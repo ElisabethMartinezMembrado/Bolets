@@ -3,7 +3,7 @@ import React from 'react';
 import { boletTipo } from '../../Utils/tiposDatos';
 import Carta from '../../Componentes/Carta/Carta';
 import './Home.css';
-import Skeleton from '@mui/material/Skeleton';
+import CartaLoading from '../../Componentes/CartaLoading/CartaLoading';
 import Stack from '@mui/material/Stack';
 
 function Home (){
@@ -39,7 +39,9 @@ function Home (){
     return(
         <div id='Body'>
         <Typography variant='h3' id="Titulo" color="#18A2A8" >Nuestros Bolets</Typography>
+
         { !Loading ? 
+
             Bolets?.map(function(CadaBolet){
                 return(
                     <Carta 
@@ -64,8 +66,10 @@ function Home (){
             }) 
         : (<Stack>
                 
+                <CartaLoading/>
+                <CartaLoading/>
                 
-                <Skeleton className="spinner" animation="wave" variant="rectangular" width={355} height={300} />
+                
             </Stack>
             ) }
         </div>

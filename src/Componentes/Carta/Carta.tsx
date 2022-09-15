@@ -18,7 +18,7 @@ function Carta (props:boletTipo){
             
             {props.etiquetas.map(function(CadaEtiqueta){
                 return(
-                    <Chip label={CadaEtiqueta} sx={{
+                    <Chip key={CadaEtiqueta} label={CadaEtiqueta} sx={{
                         backgroundColor:"#14D2DB",
                         marginLeft: 1,
                         marginTop:2,
