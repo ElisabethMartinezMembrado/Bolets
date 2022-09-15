@@ -1,0 +1,144 @@
+[
+    {
+        "createdAt": "2022-09-07T17:30:09.015Z",
+        "name": "LLanega",
+        "imageUrl": "https://lacasadelassetas.com/blog/wp-content/uploads/2019/09/llanega-negra-la-casa-de-las-setas-05.jpg",
+        "description": "Se denomina  llanega, llanega negra, babosa negra, señorita, mucosa, pegalosa, carmellosa o caramellosa.Sombrero: La llenega negra tiene un sombrero grande, cuando el ejemplar es joven tiene una forma semiesférica, luego se vuelve convexo y finalmente aplanado, llegando a hacer diámetros de más de 20 cm, aunque suele oscilar entre 5 y 15 cm.Cutícula mucosa: La cutícula es separable, de color marrón con el centro de un color más oscuro y con tiempo atmosférico normal, recubierta de una sustancia viscosa y pegajosa que llamamos moco.Pie: El pie de la llenega negra es de color blanco y también recubierto de moco que coge tonalidad marrón, en algunos ejemplares es delgado y en otros grueso con una protuberancia en medio. ",
+        "comestible": false,
+        "recomendaciones": "recomendaciones 1",
+        "calidad": "Excelente",
+        "temporada": "Buscaremos la llenega negra cuando el frío se acerque, desde finales de septiembre a principios de octubre en cotas superiores a los 1000 metros hasta diciembre, o incluso enero en años excepcionales cerca del mar o en altitudes bajas.Sólo encontraremos la llenega negra en terrenos calcáreos, es decir, con pH del suelo superiores a 7. El boj y el romero son dos plantas que crecen sobre terrenos calizo que nos pueden dar buenas pistas.Pinares:La llenega negra es una seta que encontraremos siempre asociado a pinares, tanto de pino rojo, p. silvestre, como de pino blanco o p. halepensis, a veces acompañadas de algún roble, preferiblemente con más de 20-30 años de edad.",
+        "etiquetas": [
+            "#frio",
+            "#mucosa",
+            "#LLanega"
+        ],
+        "altImagenes": [
+            "https://i.pinimg.com/originals/8d/e7/e0/8de7e069d14135fceba008a53f77d333.jpg",
+            "https://lacasadelassetas.com/blog/wp-content/uploads/2019/09/llanega-negra-la-casa-de-las-setas-01.jpg",
+            "https://lacasadelassetas.com/blog/wp-content/uploads/2019/09/llanega-negra-la-casa-de-las-setas-10.jpg"
+        ],
+        "himeni": "laminas",
+        "anillo": false,
+        "pie": "blanco",
+        "vulva": false,
+        "id": "1"
+    },
+    {
+        "createdAt": "2022-09-07T20:15:24.015Z",
+        "name": "Camagroc",
+        "imageUrl": "https://img.beteve.cat/wp-content/uploads/2020/10/camagrocs.jpg",
+        "description": "Se la conoce con los nombres:Cantharellus lutescens,trompeta amarilla, angula de monte, rebozuelo anaranjado o amarillento., bolet de trompeta o rossinyolic.Con forma atrompetada, le caracteriza su sombrero naranja pardusco de entre 3 y 6 centímetros de diámetro y su pie amarillo anaranjado, hueco en su interior.  tiene preferencia por los suelos calizos o calcáreos. Aunque principalmente las podamos localizar en pinares, escondidas bajo la pinocha de los pinos, P. nigra y P. Silvestris, también se localizan en robledales, sobre todo en las zonas con más humedad.Los cantharellus crecen en grandes y numerosos grupos.",
+        "comestible": true,
+        "recomendaciones": "Gran acompañante de guisados. Mejora su aroma un avez seco.",
+        "calidad": "Excelente",
+        "temporada": "La época de aparición de esta delicada seta es bastante amplia. Aunque las primeras las podamos encontrar desde finales de verano, en zonas poco calurosas y húmedas. La temporada del cantharellus lutescens se extendería desde inicio de otoño hasta bien entrado el invierno, incluso después de heladas. No es extraño recolectar un buen número de trompetas incluso en febrero. Eso sí, en zonas bajas y bien protegidas",
+        "etiquetas": [
+            "#Siempre",
+            "#Camagroc"
+        ],
+        "altImagenes": [
+            "https://lacasadelassetas.com/blog/wp-content/uploads/2019/04/01-cantharellus-lutescens-camagroc-trompeta-amarilla.jpg",
+            "https://lacasadelassetas.com/blog/wp-content/uploads/2019/04/03-cantharellus-lutescens-camagroc-trompeta-amarilla.jpg",
+            "https://lacasadelassetas.com/blog/wp-content/uploads/2019/04/05-cantharellus-lutescens-camagroc-trompeta-amarilla.jpg"
+        ],
+        "himeni": "Arrugas",
+        "anillo": false,
+        "pie": "Fino",
+        "vulva": false,
+        "id": "2"
+    },
+    {
+        "createdAt": "2022-09-14T10:13:41.889Z",
+        "name": "LLengua de Bou",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Hedgehog_fungi2.jpg/640px-Hedgehog_fungi2.jpg",
+        "description": "Sombrero de 3-15 cm, primero convexo, después aplanado, y finalmente deprimido. Es muy irregular y presenta el margen muy grueso y lobulado. La superficie es ondulada, seca y finamente aterciopelada, de color pálido, que va del blanco al ocre anaranjado. sombrero de color crema o amarillento, seco, de hasta 10 cm. cara inferior con agujetas crema. Pie blanco. Olor agradable.",
+        "comestible": true,
+        "recomendaciones": "Se debe hervir para quitar el amargor y quitar los pelos de la parte de abajo.",
+        "calidad": "Bueno",
+        "temporada": "Hongo micorrizógeno que vive en todo tipo de bosques, aunque prefiere los planifolios. Fructifica en verano y en otoño, a menudo formando manchas de numerosos ejemplares. Es común; se encuentra desde el litoral hasta los Pirineos. bajo coníferas o planifolios en suelo ácido.",
+        "etiquetas": [
+            "#Gamuza",
+            "#Pelitos"
+        ],
+        "altImagenes": [
+            "http://2.bp.blogspot.com/-vmWe6H9jZOM/Up3UyBqMdtI/AAAAAAAACyk/YlAN8sG2N5g/s640/2.jpg",
+            "https://www.naturephoto-cz.com/photos/maly/llengua-de-bou-50x_1913.jpg",
+            "https://ecoilogic.files.wordpress.com/2013/09/llenga-de-bou.jpg"
+        ],
+        "himeni": "Pelos",
+        "anillo": false,
+        "pie": "Normal",
+        "vulva": false,
+        "id": "3"
+    },
+    {
+        "createdAt": "2022-09-14T14:05:47.917Z",
+        "name": "LLengua de Bou Vermellosa",
+        "imageUrl": "http://4.bp.blogspot.com/-F3-k2JJpM8o/ULd8trfG70I/AAAAAAAAAyM/fjLB5SXv0BY/w1200-h630-p-k-no-nu/777+DSC_0213.jpg",
+        "description": "Es una seta muy quebradiza, difícil de cosechar entera. El sombrero de 3 a 8 cm, pasa de ser hemisférico a aplanado. Es muy irregular y presenta el margen lobulado. La superficie es ondulada, seca y finamente aterciopelada, de color rojo o amarillo anaranjado. Himenio formado por agujas muy frágiles, quebradizas, decurrentes, y de color muy parecidos o algo más claras que el sombrero. Esporada de color dorado. Pie frágil, delgado y cilíndrico. Carne blanco-crema, compacta, inodora y su sabor es ligeramente amargo.",
+        "comestible": true,
+        "recomendaciones": "Se debe hervir para quitar el amargor y quitar los pelos de la parte de abajo.",
+        "calidad": "Bueno",
+        "temporada": "Hongo micorrizógeno que vive en todo tipo de bosques, aunque prefiere los planifolios. Fructifica en verano y en otoño, a menudo formando manchas de numerosos ejemplares. Es común; se encuentra desde el litoral hasta los Pirineos. bajo coníferas o planifolios en suelo ácido.",
+        "etiquetas": [
+            "#Gamuza",
+            "#Pelitos"
+        ],
+        "altImagenes": [
+            "https://upload.wikimedia.org/wikipedia/commons/1/1f/Hydnum_rufescens_20070927w.JPG",
+            "https://bolets.info/wp-content/uploads/2015/07/llengua-wikimedia.jpg"
+        ],
+        "himeni": "Pelos",
+        "anillo": false,
+        "pie": "Normal",
+        "vulva": false,
+        "id": "4"
+    },
+    {
+        "createdAt": "2022-09-13T17:37:43.313Z",
+        "name": "Carlet",
+        "imageUrl": "https://www.aguaron.org/images/setas/cardenal-1.jpg",
+        "description": "El carlet o escarlet.Hygrophorus russula. La cutícula, que es parcialmente separable, es lisa y ligeramente listada, viscosa en tiempo húmedo, de color rosado y manchado de rojo vinoso, es más oscura en el centro. Contrasta con láminas y pie más blancos. Carne abundante y compacta, fibrosa en el pie, de olor suave y sabor dulce, a veces algo amargo",
+        "comestible": true,
+        "recomendaciones": "No suele comerse después de ser cosechado, sino que se conserva en sal o salmuera para una utilización posterior. También se puede servir al baño maría o en vinagre. Sacándole la cutícula, ya que amarga, se mejora su calidad. Es un buen comestible, mejor para acompañar a guisos que para comerlo solo, porque su carne absorbe todos los agradables sabores del plato",
+        "calidad": "Bueno",
+        "temporada": "Crece en encinares, robledales y hayedos, en todo tipo de suelos, con preferencia por los básicos y los neutros. Fructifica en otoño, generalmente en grandes grupos, que reciben el nombre de escarleteras. Es una seta tardía siendo su mes preferida en noviembre.",
+        "etiquetas": [
+            "#Noviembre",
+            "#Grupos"
+        ],
+        "altImagenes": [
+            "https://i.pinimg.com/736x/5c/fc/72/5cfc72fdf00ea1bbd792a60495d1e7b8.jpg",
+            "http://1.bp.blogspot.com/-892ygt-xlGE/Up3qrgD3VDI/AAAAAAAACy0/C5CZSN37RHM/s640/carlet.jpg"
+        ],
+        "himeni": "Laminas",
+        "anillo": false,
+        "pie": "Manchas rojizas",
+        "vulva": false,
+        "id": "5"
+    },
+    {
+        "createdAt": "2022-09-14T04:54:12.285Z",
+        "name": "Amanita Muscaria",
+        "imageUrl": "https://www.zamnesia.es/img/cms/CMS_Pages/217_Amanita_Muscaria/1-What-Is-Amanita-Muscaria-HEADER-CMS.jpg",
+        "description": "También conocido como matamoscas o falsa oronja, considerado venenoso y enteógeno. El uso se restringió a los chamanes, quienes lo usaron como un método alternativo para lograr un estado de trance. puede llegar a medir entre 10 y 20 cm de altura.7​ El píleo o sombrero presenta entre 7 cm y 25 cm de diámetro; y posee una cutícula de color rojo escarlata que vira hacia naranja con la maduración. Sobre la cutícula se pueden encontrar numerosos restos de velo universal de color blanco en forma de puntos blancos.Su textura es carnosa, consistente y de aspecto atractivo. El margen es incurvado y ligeramente estriado en la madurez. El estipe o pie es cilíndrico, fácilmente separable del sombrero, de color blanco con un ligero tono de amarillo claro, es recto, su tamaño varía desde los 12 a 20 cm de altura y de 1 a 3 cm de diámetro. Presenta un anillo amplio membranoso y con el borde ligeramente teñido de amarillo (producto de la ruptura del velo secundario).10​ La base del pie es claviforme, rodeado de una volva (resto del velo universal).La superficie interior del sombrero llamada himenio aparece recubierta por láminas, generalmente blancas, independientes, ventrudas y desiguales. Las esporas son blancas y ovoides.​ ",
+        "comestible": false,
+        "recomendaciones": "No es comestible. ES TOXICA!",
+        "calidad": "Venenosa",
+        "temporada": "Se puede encontrar durante toda la temporada, es muy común",
+        "etiquetas": [
+            "#Venenosa"
+        ],
+        "altImagenes": [
+            "https://static1.elcorreo.com/www/pre2017/multimedia/noticias/201511/19/media/cortadas/amanitamuscaria--575x400.jpg",
+            "https://www.jardineriaon.com/wp-content/uploads/2020/02/Amanita-junquillea.jpg",
+            "https://www.monaconatureencyclopedia.com/wp-content/uploads/2008/08/jpg_Bello_ma_tossico_talora_anche_mortale_c_Giuseppe_Mazza.jpg"
+        ],
+        "himeni": "Laminas",
+        "anillo": true,
+        "pie": "blanco",
+        "vulva": true,
+        "id": "6"
+    }
+]
