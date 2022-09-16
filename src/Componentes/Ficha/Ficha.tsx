@@ -18,7 +18,7 @@ import Paper from '@mui/material/Paper';
 
 function Ficha (props:boletTipo){
    
-
+    
     return(
         
             <Card sx={{ minWidth: 278,
@@ -35,7 +35,7 @@ function Ficha (props:boletTipo){
                     color={"white"}>
                         {props.name}
                 </Typography>
-                {props.comestible ===true ? 
+                {props.comestible === true ? 
                     <Typography 
                     
                         variant="h4"

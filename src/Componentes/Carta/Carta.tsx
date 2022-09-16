@@ -4,6 +4,7 @@ import { Card, CardContent, Typography } from '@mui/material';
 import CardMedia from '@mui/material/CardMedia';
 import Chip from '@mui/material/Chip';
 import { boletTipo } from '../../Utils/tiposDatos';
+import { Link } from 'react-router-dom';
 
 function Carta (props:boletTipo){
 
@@ -14,6 +15,8 @@ function Carta (props:boletTipo){
         
         }}>
         <CardContent>
+        <Link to={`/details/${props.id}`}>
+
             <Typography variant="h4" id="Nombre" color={"white"}>{props.name}</Typography>
             
             {props.etiquetas?.map(function(CadaEtiqueta){
@@ -36,6 +39,8 @@ function Carta (props:boletTipo){
             
          }}
         />
+        </Link>
+
         </CardContent>  
 
         </Card>

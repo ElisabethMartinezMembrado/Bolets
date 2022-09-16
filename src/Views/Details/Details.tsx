@@ -30,7 +30,7 @@ function Details (){
     }
      React.useEffect(function(){
         RecibirDatos()
-     }, [])
+     }, [id])
 
     return(
         <div id='Body'>
