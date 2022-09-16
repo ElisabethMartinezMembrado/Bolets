@@ -8,15 +8,15 @@ import { boletTipo } from '../../Utils/tiposDatos';
 function Carta (props:boletTipo){
 
     return(
-       <div>
-        <Card sx={{ minWidth: 278,
+       <div className='body'>
+        <Card className='ficha' sx={{ minWidth: 278,
         backgroundColor: "#171717",
-        marginTop:4,
+        
         }}>
         <CardContent>
             <Typography variant="h4" id="Nombre" color={"white"}>{props.name}</Typography>
             
-            {props.etiquetas.map(function(CadaEtiqueta){
+            {props.etiquetas?.map(function(CadaEtiqueta){
                 return(
                     <Chip key={CadaEtiqueta} label={CadaEtiqueta} sx={{
                         backgroundColor:"#14D2DB",

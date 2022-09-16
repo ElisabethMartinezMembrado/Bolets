@@ -16,11 +16,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/home" element={<Home/>} />
-          <Route path="/details" element={<Details/>} />
-          <Route path='/NotFound' element ={<NotFound/>}/>
+          <Route path="/details/:id" element={<Details/>} />
+          <Route path="*" element ={<NotFound/>}/>
         </Routes>
       </HashRouter>
-      <p>v1.5.0</p>
+      <p>v1.6.0</p>
      
     </div>
   );

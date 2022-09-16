@@ -5,7 +5,7 @@ import './NotFound.css';
 function NoteFound (){
     return(
         <div id='Body'>
-        <Typography id="Titulo" >Nuestros Bulets</Typography>
+        <Typography id="Titulo" >Esta es la 404</Typography>
         </div>
     )
 }
