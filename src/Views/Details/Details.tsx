@@ -13,7 +13,7 @@ function Details (){
 
     // Funcion que se baje los datos de la API
     // y que lo guarde en el estado del componente
-    async function  RecibirDatos() {
+    async function RecibirDatos() {
         try{
             console.log(id)
             const RespuestaApi = await fetch(`https://62d4fcf2cd960e45d45ea776.mockapi.io/bolets/${id}`);
@@ -28,9 +28,11 @@ function Details (){
         }
         
     }
-     React.useEffect(function(){
+
+    React.useEffect(function(){
         RecibirDatos()
-     }, [id])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [id])
 
     return(
         <div id='Body'>
