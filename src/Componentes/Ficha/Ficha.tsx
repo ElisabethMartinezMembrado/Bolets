@@ -13,12 +13,13 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Divider from '@mui/material/Divider';
 
 
 
 function Ficha (props:boletTipo){
    
-    
+
     return(
         
             <Card sx={{ minWidth: 278,
@@ -73,10 +74,11 @@ function Ficha (props:boletTipo){
                     src={props.imageUrl}
                     alt="Bolet"
                     sx={{borderRadius:"50%",
-                        }}
+                      marginBottom:3,  }}
                 />
                 <TableContainer component={Paper}>
-                    <Table sx={{ minWhidth: 650 }} >
+                    <Table sx={{ minWhidth: 650,
+                     }} >
                         <TableHead>
                             <TableRow>
                                 <TableCell align="right">Himeni</TableCell>
@@ -88,35 +90,61 @@ function Ficha (props:boletTipo){
                         <TableBody>
                             <TableCell align='right'>{props.himeni}</TableCell>
                             <TableCell align='right'>{props.pie}</TableCell>
-                            <TableCell align='right'>{props.vulva}</TableCell>
-                            <TableCell align='right'>{props.anillo}</TableCell>
+                            <TableCell align='right'>{
+                            props.vulva ? "✔️" : "❌" }</TableCell>
+                            <TableCell align='right'>{
+                            props.anillo ? "✔️" : "❌"}</TableCell>
                         </TableBody>
                     </Table>
 
                 </TableContainer>
-                
+                <Divider sx={{
+                        bgcolor: "#4caf50",
+                        marginTop:6,
+                    }}>
+                    <Chip sx={{
+                        color: "white",
+                    }} label="Descripción" />
+                </Divider>
                 <Typography 
                     variant="h6" 
                     sx={{
-                        marginTop:4,
+                        marginTop:3,
                     }} 
-                    color={"white"}>Descripción: {props.description}
+                    color={"white"}> {props.description}
                 </Typography>
 
+                <Divider sx={{
+                        bgcolor: "#4caf50",
+                        marginTop:6,
+                    }}>
+                    <Chip sx={{
+                        color: "white",
+                    }} label="Recomendación" />
+                </Divider>   
                 <Typography 
                     variant="h6" 
                     sx={{
-                        marginTop:4,
+                        marginTop:2,
 
                     }} 
-                    color={"white"}>Recomendación: {props.recomendaciones}</Typography>
+                    color={"white"}> {props.recomendaciones}</Typography>
+                
+                <Divider sx={{
+                        bgcolor: "#4caf50",
+                        marginTop:6,
+                    }}>
+                    <Chip sx={{
+                        color: "white",
+                    }} label="Temporada" />
+                </Divider> 
                 <Typography 
                     variant="h6"
                     sx={{
                         marginTop:4,
                         marginBottom:4,
                     }} 
-                    color={"white"}>Temporada: {props.temporada}</Typography>
+                    color={"white"}> {props.temporada}</Typography>
                 
                 {props.altImagenes?.map(function(CadaImagen){
                     return(

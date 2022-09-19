@@ -4,6 +4,7 @@ import {useParams} from 'react-router-dom';
 import { boletTipo } from '../../Utils/tiposDatos';
 import './Details.css';
 import Ficha from '../../Componentes/Ficha/Ficha';
+import FichaSkeleton from '../../Componentes/FichaSkeleton/FichaSkeleton';
 
 function Details (){
 
@@ -36,6 +37,7 @@ function Details (){
 
     return(
         <div id='Body'>
+         
             {!Loading ? 
                 <Ficha
                     key={id}
@@ -56,11 +58,11 @@ function Details (){
                     id = {DatosAPI?.id}
                 />
             
-            : <p>Aún no hay datos</p>
+            : <FichaSkeleton/>
             }
             
     
-            <Typography id="Titulo" >Esta es la vista de details</Typography>
+            
         </div>
     )
 }
