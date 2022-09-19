@@ -12,6 +12,7 @@ function Carta (props:boletTipo){
        <div className='body'>
         <Card className='ficha' sx={{ minWidth: 278,
         backgroundColor: "#171717",
+        marginBottom:4,
         
         }}>
         <CardContent>

@@ -22,9 +22,9 @@ function Ficha (props:boletTipo){
 
     return(
         
-            <Card sx={{ minWidth: 278,
+            <Card className='Ficha' sx={{ minWidth: 278,
                 backgroundColor: "#171717",
-                marginTop:4,
+                
                 }}>
                     <CardContent>
                 <Typography variant="h3"

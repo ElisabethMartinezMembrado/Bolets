@@ -35,7 +35,7 @@ function Details (){
     }, [id])
 
     return(
-        <div id='Body'>
+        <div className='Body'>
          
             {!Loading ? 
                 <Ficha
