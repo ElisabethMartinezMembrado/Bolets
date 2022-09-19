@@ -19,12 +19,22 @@ function Details (){
             const RespuestaApi = await fetch(`https://62d4fcf2cd960e45d45ea776.mockapi.io/bolets/${id}`);
             const RepsuestaApitxt = await RespuestaApi.text();
             const RespuestaApiParse = JSON.parse(RepsuestaApitxt);
+            localStorage.setItem("Datos", RepsuestaApitxt);
             setDatosApi(RespuestaApiParse);
             setLoading(false);
             console.log(RespuestaApiParse)
 
         }catch (error){
             console.log(error)
+            const DatosGuardados = localStorage.getItem("Datos")
+            if(DatosGuardados){
+                const RespuestaApiParse = JSON.parse(DatosGuardados)
+                setDatosApi(RespuestaApiParse);
+                setLoading(false);
+            }else {
+                console.log("El usuario no tiene conexión a internet ni copia en cache de los datos")
+            }
+             
         }
         
     }
