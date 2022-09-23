@@ -4,6 +4,7 @@ import { boletTipo } from '../../Utils/tiposDatos';
 import './Details.css';
 import Ficha from '../../Componentes/Ficha/Ficha';
 import FichaSkeleton from '../../Componentes/FichaSkeleton/FichaSkeleton';
+import Navbar from '../../Componentes/Navbar/Navbar';
 
 function Details (){
 
@@ -63,7 +64,7 @@ function Details (){
 
     return(
         <div className='Body'>
-         
+            <Navbar/>
             {!Loading ? 
                 <Ficha
                     key={id}

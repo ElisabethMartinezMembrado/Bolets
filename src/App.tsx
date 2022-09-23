@@ -11,7 +11,6 @@ function App() {
   return (
     
     <div className="App">
-      <Navbar/>
       <HashRouter>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -20,7 +19,7 @@ function App() {
           <Route path="*" element ={<NotFound/>}/>
         </Routes>
       </HashRouter>
-      <p>v2.5.0</p>
+      <p>v3.0.0</p>
      
     </div>
   );
