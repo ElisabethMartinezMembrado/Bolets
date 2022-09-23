@@ -4,7 +4,7 @@ import './App.css';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Details from './Views/Details/Details';
 import NotFound from './Views/NotFound/NotFound';
-import Navbar from './Componentes/Navbar/Navbar';
+
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path="*" element ={<NotFound/>}/>
         </Routes>
       </HashRouter>
-      <p>v3.1.0</p>
+      <p>v3.2.0</p>
      
     </div>
   );
