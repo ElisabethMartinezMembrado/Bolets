@@ -12,7 +12,7 @@ import Navbar from '../../Componentes/Navbar/Navbar';
         const [BoletsFiltro, setBoletsFiltro] = React.useState<boletTipo[]>();
         const [Bolets, setBolets] = React.useState<boletTipo[]>();
         const [Loading, setLoading] = React.useState(true);
-        const [searchParams, setSearchParams]= useSearchParams();
+        const [searchParams]= useSearchParams();
 
         useEffect(function(){
             setBoletsFiltro(Bolets);
@@ -52,6 +52,7 @@ import Navbar from '../../Componentes/Navbar/Navbar';
                         const BoletNameNormalizado = Normaliza(CadaBolet.name)
                         return BoletNameNormalizado.includes(nameNormalizado)
                     }
+                    return false;
                 })
             }
             // 4. Filtro por comestible
@@ -68,6 +69,7 @@ import Navbar from '../../Componentes/Navbar/Navbar';
                         const BoletCalidadNormalizado = Normaliza(CadaBolet.calidad)
                         return CalidadNormalizado === BoletCalidadNormalizado
                     }
+                    return false;
                 })
             }
             if(himeni !== null){
