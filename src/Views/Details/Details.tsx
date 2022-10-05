@@ -6,14 +6,17 @@ import Ficha from '../../Componentes/Ficha/Ficha';
 import FichaSkeleton from '../../Componentes/FichaSkeleton/FichaSkeleton';
 import Navbar from '../../Componentes/Navbar/Navbar';
 
+
 function Details (){
 
     const {id} = useParams();
     const [DatosAPI,setDatosApi]=React.useState<boletTipo>();
     const [Loading, setLoading]=React.useState(true);
+   
 
     // Funcion que se baje los datos de la API
     // y que lo guarde en el estado del componente
+
     async function RecibirDatos() {
         try{
             console.log(id)
@@ -26,6 +29,7 @@ function Details (){
             setDatosApi(RespuestaApiParse);
             setLoading(false);
             console.log(RespuestaApiParse)
+            
 
         }catch (error){
             console.log(error)
@@ -38,6 +42,7 @@ function Details (){
                 })
                 setDatosApi(elBolet);
                 setLoading(false);
+                
             } else {
                 console.log("El usuario no tiene conexión a internet ni copia en cache de los datos")
             }

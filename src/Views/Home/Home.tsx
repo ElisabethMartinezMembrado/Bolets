@@ -28,6 +28,8 @@ import Navbar from '../../Componentes/Navbar/Navbar';
             const vulva = searchParams.get("vulva");
             const search = searchParams.get("search")
 
+            console.log(name, comestible, calidad, himeni)
+
             function eliminarDiacriticos(texto:string) {
                 return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
             }
@@ -45,7 +47,7 @@ import Navbar from '../../Componentes/Navbar/Navbar';
             // 2. Por defecto, los resultados serán todos los bolets
             resultados = Bolets;
             // 3. Filtro por name
-            if (name !== null){
+            if (name !== null && name !== "" && name !== "undefined"){
                 resultados = resultados?.filter(function(CadaBolet: boletTipo){
                     const nameNormalizado = Normaliza(name);
                     if(CadaBolet.name){
@@ -56,13 +58,13 @@ import Navbar from '../../Componentes/Navbar/Navbar';
                 })
             }
             // 4. Filtro por comestible
-           if (comestible !== null){
+           if (comestible !== null && comestible !== "" && comestible !== "undefined"){
                 resultados = resultados?.filter(function(CadaBolet: boletTipo){
                    return comestible === CadaBolet.comestible?.toString()
                 })
             }
             //5. Filtro por calidad
-            if(calidad !== null){
+            if(calidad !== null && calidad !== "" && calidad !== "undefined"){
                  resultados = resultados?.filter(function(CadaBolet:boletTipo){
                         const CalidadNormalizado = Normaliza(calidad);
                     if(CadaBolet.calidad){
@@ -72,28 +74,28 @@ import Navbar from '../../Componentes/Navbar/Navbar';
                     return false;
                 })
             }
-            if(himeni !== null){
+            if(himeni !== null && himeni !== "" && himeni !== "undefined"){
                 resultados = resultados?.filter(function(CadaBolet:boletTipo){
                     return himeni === CadaBolet.himeni;
                 })
             }
-            if(anillo !== null){
+            if(anillo !== null && anillo !== "" && anillo !== "undefined"){
                 resultados =resultados?.filter(function(CadaBolet:boletTipo){
                     return anillo === CadaBolet.anillo?.toString()
                 })
             }
-            if(pie !== null){
+            if(pie !== null && pie !== "" && pie !== "undefined"){
                 resultados =resultados?.filter(function(CadaBolet:boletTipo){
                     return pie === CadaBolet.pie;
                 })
             }
-            if(vulva !== null){
+            if(vulva !== null && vulva !== "" && vulva !== "undefined"){
                 resultados = resultados?.filter(function(CadaBolet:boletTipo){
                     return vulva === CadaBolet.vulva?.toString()
                 })
             }
             // 5. filtros por multiples campos
-            if(search !== null){
+            if(search !== null && search !== "" && search !== "undefined"){
                 const searchNormalizado = Normaliza(search)
                 resultados = resultados?.filter(function(CadaBolet:boletTipo){
                     // Por descripcion
