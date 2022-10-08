@@ -9,7 +9,7 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
+import Select from '@mui/material/Select';
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
@@ -18,7 +18,6 @@ import Button from '@mui/material/Button';
 
 
 function Filtros(props: any){
-    const [DatosAPI,setDatosApi]=React.useState<boletTipo>();
     const [Loading, setLoading]=React.useState(true);
     const Navigate = useNavigate();
     const [Calidad, setCalidad] = React.useState("");
@@ -57,9 +56,9 @@ function Filtros(props: any){
     async function RecibirDatos (){
         try{
          const RespuestaApi = await fetch('https://62d4fcf2cd960e45d45ea776.mockapi.io/bolets');
-         const RepsuestaApitxt = await RespuestaApi.text();
-         const RespuestaApiParse = JSON.parse(RepsuestaApitxt);
-         setDatosApi(RespuestaApiParse);
+         const RespuestaApiTxt = await RespuestaApi.text();
+         const RespuestaApiParse = JSON.parse(RespuestaApiTxt);
+         localStorage.setItem("datos", RespuestaApiTxt);
          // Calidad
          let TiposCalidad = new Set<string>(RespuestaApiParse.map(function(Bolet:boletTipo){
             return Bolet.calidad
@@ -78,16 +77,17 @@ function Filtros(props: any){
          }))
          let ArrayTipoPie = [...TiposPie];
          setOptionsPie(ArrayTipoPie)
-         
-     
-
-
          console.log(RespuestaApiParse);
          setLoading(false);
 
         }catch(error){
             console.log(error)
-            console.log("El usuario no tiene conexión a internet ni copia en cache de los datos")
+            const datosGuardados = localStorage.getItem("datos");
+                if (datosGuardados) {
+                    setLoading(false);
+                } else {
+                    console.log("El usuario no tiene conexión a internet ni copia en cache de los datos")
+                }
         }
     }
    

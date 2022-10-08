@@ -19,7 +19,7 @@ function Navbar (){
 
 
     function ToggleDraw (NewState:boolean){
-      setDrawerOpen(NewState)
+       setDrawerOpen(NewState)
     }
     
     function handleSearch(){

@@ -28,7 +28,6 @@ import Navbar from '../../Componentes/Navbar/Navbar';
             const vulva = searchParams.get("vulva");
             const search = searchParams.get("search")
 
-            console.log(name, comestible, calidad, himeni)
 
             function eliminarDiacriticos(texto:string) {
                 return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
