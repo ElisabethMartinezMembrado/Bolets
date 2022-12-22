@@ -1,46 +1,150 @@
-# Getting Started with Create React App
+# Bolet.App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<center>
+<img src="./public/bolet.png">
+</center>
 
-In the project directory, you can run:
+<br>
+<br>
 
-### `npm start`
+ ![React Image](https://badges.aleen42.com/src/react.svg)
+ ![React Router](https://badges.aleen42.com/src/react-router.svg)
+![Eslint](https://badges.aleen42.com/src/eslint.svg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+This project is made with [Create React App](https://github.com/facebook/create-react-app) and [Material UI](https://mui.com/) v5.10.15 .
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+## `Description`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+BoletApp is a progressive web application that allows you to learn, identify and view the characteritics about Mushrooms. 
+On the main page we will find all our mushrooms.
+Thanks to the navigation bar we can acces a search bar and in the left menu some filters that will help us identify them.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
+## `Requirements` 
+* NodeJS
+* Npm
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## `Views`
+### Home
+<img src="./public/HomeRedi.jpeg" alt="Home" width="300"/>
 
-### `npm run eject`
+### Filters
+<img src="./public/Filter.jpeg" alt="Filters" width="300"/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### File
+<img src="./public/Ficharedi.jpeg" alt="DataSheet" width="300"/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## `Functions`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`The component Home`
 
-## Learn More
+- Make the request GET to the API and receives the data.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Sets and retrieves parameter values.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Normalize user search.
+
+- Filter the search and show it.
+
+`The component Card`
+
+- Receives Home props
+
+- Shows each mushroom by the id.
+
+`The component Loading Card`
+
+- Until the letter receives the infromation, it shows the skeleton os the page.
+
+`The component Navbar`
+
+- Render the search bar
+
+- Activate the side menu on the left.
+
+- Send user search to Home
+
+`The component Filter`
+
+- Make the API call to create the options buttons.
+
+- Render buttons and trigger the user search.
+
+- Send the filters to Home for render.
+
+`The component Details`
+
+- Make the request to Api.
+
+- Save data in Component state
+
+- Save data in navigation cache to provide offline service
+
+- When it receives the data it passes the props to the data sheet.
+
+`The component Data Sheet`
+
+- Receives the Details props.
+
+- Render the data to selection mushroom to help your recognition.
+
+`The component Skeleton Data Sheet`
+
+-  Until data sheet receives the information, it shows the skeleton of the page.
+
+---
+## `Instalation`
+
+
+
+1 - Download the app on GitHub. For this we clone the project and copy the url of the project.
+
+2 - From the console we open the project folder and with comand `npm instal`, we download the packages.
+
+3- To the open local server, we type `npm start`.
+
+---
+
+## `CD (Continuous Deployment)`
+
+The CI provider is GitHub Actions.
+The project inlcudes a Pipeline in .yml format.
+
+## `Upgrade ideas`
+
+* The client will be abel to add mushrooms and modify them.
+
+* Inlcude a favorite mushroom location for better acces.
+
+* Improve filters
+
+* Paginate content
+---
+
+## `Contributions`
+
+All contribution forit improvement will be welcome.
+
+---
+
+
+## `Licence`
+
+Copyright 2022 Elisabeth Martinez Membrado.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
