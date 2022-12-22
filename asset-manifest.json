@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Bolets/static/css/main.d924b63c.css",
+    "main.js": "/Bolets/static/js/main.90747d1e.js",
+    "static/js/787.aeef9fba.chunk.js": "/Bolets/static/js/787.aeef9fba.chunk.js",
+    "service-worker.js": "/Bolets/service-worker.js",
+    "index.html": "/Bolets/index.html",
+    "main.d924b63c.css.map": "/Bolets/static/css/main.d924b63c.css.map",
+    "main.90747d1e.js.map": "/Bolets/static/js/main.90747d1e.js.map",
+    "787.aeef9fba.chunk.js.map": "/Bolets/static/js/787.aeef9fba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d924b63c.css",
+    "static/js/main.90747d1e.js"
+  ]
+}
