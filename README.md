@@ -25,6 +25,7 @@ This project is made with [Create React App](https://github.com/facebook/create-
 BoletApp is a progressive web application that allows you to learn, identify and view the characteritics about Mushrooms. 
 On the main page we will find all our mushrooms.
 Thanks to the navigation bar we can acces a search bar and in the left menu some filters that will help us identify them.
+Click here for view deployed application -> https://elisabethmartinezmembrado.github.io/Bolets/
 
 ---
 ## `Requirements` 
@@ -34,6 +35,7 @@ Thanks to the navigation bar we can acces a search bar and in the left menu some
 
 ## `Views`
 ### Home
+
 <img src="./public/HomeRedi.jpeg" alt="Home" width="300"/>
 
 ### Filters
